@@ -3,12 +3,16 @@ A simple library for creating config files
 
 There are two versions of this library:
 
-* ConfigCreator (>NET 6.0)
-* ConfigCreator.Framework (>NET.Framework 4.7.2)
+* [ConfigCreator](https://www.nuget.org/packages/ConfigCreator) (>NET 6.0)
+* [ConfigCreator.Framework](https://www.nuget.org/packages/ConfigCreator.Framework) (>NET.Framework 4.7.2)
 
 # Installing
-```nuget
+```
 NuGet\Install-Package ConfigCreator -Version 1.0.0
+```
+or
+```
+NuGet\Install-Package ConfigCreator.Framework -Version 1.0.0
 ```
 
 # Documentation
