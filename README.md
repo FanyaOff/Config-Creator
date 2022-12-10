@@ -15,7 +15,7 @@ or
 NuGet\Install-Package ConfigCreator.Framework -Version 1.0.0
 ```
 
-# Documentation
+# Documentation | [RU Language](https://github.com/FanyaOff/Config-Creator/blob/main/README-RU.MD)
 **Methods:**
 
 * **Config.CreateConfigFile(string configFileName, string configPath)**
