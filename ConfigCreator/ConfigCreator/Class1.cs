@@ -88,6 +88,9 @@
                     continue;
                 item = File.ReadLines(globalConfigPath).Skip(lineNumber + 1).First();
             }
+            if (item.Length == 0)
+                item = null;
+
             return item;
         }
         /// <summary>

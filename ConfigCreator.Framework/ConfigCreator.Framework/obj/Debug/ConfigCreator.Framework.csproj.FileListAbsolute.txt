@@ -1,0 +1,6 @@
+J:\projects\Config-Creator\ConfigCreator.Framework\ConfigCreator.Framework\bin\Debug\ConfigCreator.Framework.dll
+J:\projects\Config-Creator\ConfigCreator.Framework\ConfigCreator.Framework\bin\Debug\ConfigCreator.Framework.pdb
+J:\projects\Config-Creator\ConfigCreator.Framework\ConfigCreator.Framework\obj\Debug\ConfigCreator.Framework.csproj.AssemblyReference.cache
+J:\projects\Config-Creator\ConfigCreator.Framework\ConfigCreator.Framework\obj\Debug\ConfigCreator.Framework.csproj.CoreCompileInputs.cache
+J:\projects\Config-Creator\ConfigCreator.Framework\ConfigCreator.Framework\obj\Debug\ConfigCreator.Framework.dll
+J:\projects\Config-Creator\ConfigCreator.Framework\ConfigCreator.Framework\obj\Debug\ConfigCreator.Framework.pdb
