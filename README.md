@@ -20,7 +20,7 @@ NuGet\Install-Package ConfigCreator.Framework -Version 1.0.0
 
 ## **Config.CreateConfigFile(string configFileName, string configPath)**
 
-This method creates a file with the items you added. Use only after the Config.Add method
+This method creates a file with the items you added. Use only after the [Config.Add](https://github.com/FanyaOff/Config-Creator/blob/main/README.md#configaddstring-configitem-string-itemvalue-string-configitemcomment) method
 
 _configFileName_ - Config name
 
