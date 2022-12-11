@@ -36,7 +36,7 @@ Config.Add("Language", "RU", "Languages: EN, RU, UA");
 Config.CreateConfigFile("appsettings", null); // Creating a config file
 ```
 
-* **Config.Add(string configItem, string itemValue, string configItemComment)**
+## **Config.Add(string configItem, string itemValue, string configItemComment)**
 
 This method allows you to add an item to your config file, give it a comment and a default value
 
