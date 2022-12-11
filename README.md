@@ -16,7 +16,13 @@ NuGet\Install-Package ConfigCreator.Framework -Version 1.0.0
 ```
 
 # Documentation | [RU Language](https://github.com/FanyaOff/Config-Creator/blob/main/README-RU.MD)
-**Methods:**
+**Documentation Content:**
+* [Config.CreateConfigFile(string configFileName, string configPath)](https://github.com/FanyaOff/Config-Creator#configcreateconfigfilestring-configfilename-string-configpath)
+* [Config.Add(string configItem, string itemValue, string configItemComment](https://github.com/FanyaOff/Config-Creator#configaddstring-configitem-string-itemvalue-string-configitemcomment)
+* [Config.Initialize(string configFileName, string configPath)](https://github.com/FanyaOff/Config-Creator#configinitializestring-configfilename-string-configpath)
+* [Config.GetItem(string configItem)](https://github.com/FanyaOff/Config-Creator#configgetitemstring-configitem)
+* [Config.getConfigPath()](https://github.com/FanyaOff/Config-Creator#configgetconfigpath)
+* [Program Example](https://github.com/FanyaOff/Config-Creator#program-example)
 
 ## **Config.CreateConfigFile(string configFileName, string configPath)**
 
