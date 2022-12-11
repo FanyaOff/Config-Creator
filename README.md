@@ -18,7 +18,7 @@ NuGet\Install-Package ConfigCreator.Framework -Version 1.0.0
 # Documentation | [RU Language](https://github.com/FanyaOff/Config-Creator/blob/main/README-RU.MD)
 **Methods:**
 
-* **Config.CreateConfigFile(string configFileName, string configPath)**
+## **Config.CreateConfigFile(string configFileName, string configPath)**
 
 This method creates a file with the items you added. Use only after the Config.Add method
 
@@ -59,7 +59,7 @@ Config.CreateConfigFile("appsettings", null); // Creating a config file
 
 ![image](https://user-images.githubusercontent.com/73064979/206867732-bed65030-4a6a-4c86-b3f1-a21e1b5a8a4e.png)
 
-* **Config.Initialize(string configFileName, string configPath)**
+## **Config.Initialize(string configFileName, string configPath)**
 
 This method initializes the configuration to memory. It is recommended to run it every time you start the program so that your application does not throw an exception
 
@@ -74,7 +74,7 @@ Config.Initialize("appsettings", null); // initializing config into memory
 Console.WriteLine($"ApiKey: {Config.GetItem("ApiKey")}"); // display config value
 ```
 
-* **Config.GetItem(string configItem)**
+## **Config.GetItem(string configItem)**
 
 This method will help you get the value from the config file. _returns null if no value was found_
 
@@ -88,7 +88,7 @@ Config.Initialize("appsettings", null); // initializing config into memory
 Console.WriteLine($"ApiKey: {Config.GetItem("ApiKey")}"); // display config value
 ```
 
-* **Config.getConfigPath()**
+## **Config.getConfigPath()**
 
 Returns the path to the config after its initialization
 
