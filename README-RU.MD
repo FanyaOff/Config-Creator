@@ -26,7 +26,7 @@ NuGet\Install-Package ConfigCreator.Framework -Version 1.0.0
 
 ## **Config.CreateConfigFile(string configFileName, string configPath)**
 
-Этот метод создает файл с добавленными вами элементами. Используйте только после добавления элементов методом Config.Add()
+Этот метод создает файл с добавленными вами элементами. Используйте только после добавления элементов методом [Config.Add()](https://github.com/FanyaOff/Config-Creator/blob/main/README-RU.MD#configaddstring-configitem-string-itemvalue-string-configitemcomment)
 
 _configFileName_ - Имя конфигурации
 
@@ -67,7 +67,7 @@ Config.CreateConfigFile("appsettings", null); // Создаёи конфиг ф�
 
 ## **Config.Initialize(string configFileName, string configPath)**
 
-Этот метод инициализирует конфигурацию в памяти. Рекомендуется выполнять его каждый раз, когда вы запускаете программу, чтобы ваше приложение не выдавало исключение при использовании Config.getConfigPath() или Config.GetItem()
+Этот метод инициализирует конфигурацию в памяти. Рекомендуется выполнять его каждый раз, когда вы запускаете программу, чтобы ваше приложение не выдавало исключение при использовании [Config.getConfigPath()](https://github.com/FanyaOff/Config-Creator/blob/main/README-RU.MD#configgetconfigpath) или [Config.GetItem(string configItem)](https://github.com/FanyaOff/Config-Creator/blob/main/README-RU.MD#configgetitemstring-configitem)
 
 _configFileName_ - Имя конфигурации
 
