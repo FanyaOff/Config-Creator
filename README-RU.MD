@@ -16,9 +16,10 @@ NuGet\Install-Package ConfigCreator.Framework -Version 1.0.0
 ```
 
 # Документация
-**Методы:**
+**Содержимое документации:**
 
-* **Config.CreateConfigFile(string configFileName, string configPath)**
+
+## **Config.CreateConfigFile(string configFileName, string configPath)**
 
 Этот метод создает файл с добавленными вами элементами. Используйте только после добавления элементов методом Config.Add()
 
@@ -36,7 +37,7 @@ Config.Add("Language", "RU", "Languages: EN, RU, UA");
 Config.CreateConfigFile("appsettings", null); // Создаёи конфиг файл с этими элементами
 ```
 
-* **Config.Add(string configItem, string itemValue, string configItemComment)**
+## **Config.Add(string configItem, string itemValue, string configItemComment)**
 
 Этот метод позволяет вам добавить элемент в свой конфигурационный файл, дать ему комментарий и значение по умолчанию
 
@@ -59,7 +60,7 @@ Config.CreateConfigFile("appsettings", null); // Создаёи конфиг ф�
 
 ![image](https://user-images.githubusercontent.com/73064979/206867732-bed65030-4a6a-4c86-b3f1-a21e1b5a8a4e.png)
 
-* **Config.Initialize(string configFileName, string configPath)**
+## **Config.Initialize(string configFileName, string configPath)**
 
 Этот метод инициализирует конфигурацию в памяти. Рекомендуется выполнять его каждый раз, когда вы запускаете программу, чтобы ваше приложение не выдавало исключение при использовании Config.getConfigPath() или Config.GetItem()
 
@@ -75,7 +76,7 @@ Config.Initialize("appsettings", null); // Инициализируем конф
 Console.WriteLine($"ApiKey: {Config.GetItem("ApiKey")}"); // выводим значения из конфига
 ```
 
-* **Config.GetItem(string configItem)**
+## **Config.GetItem(string configItem)**
 
 Этот метод поможет вам получить значение из конфигурационного файла. _возвращает значение null, если значение не было найдено_
 
@@ -89,7 +90,7 @@ Config.Initialize("appsettings", null); // Инициализируем конф
 Console.WriteLine($"ApiKey: {Config.GetItem("ApiKey")}"); // выводим значения из конфига
 ```
 
-* **Config.getConfigPath()**
+## **Config.getConfigPath()**
 
 Возвращает путь к конфигурации после ее инициализации
 
